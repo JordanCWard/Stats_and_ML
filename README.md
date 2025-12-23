@@ -10,81 +10,85 @@ The work highlights the application of statistics and machine learning to practi
 
 The repository is organized into Jupyter notebooks and datasets, grouped by modeling approach and statistical technique.
 
-### Supervised Learning Models
-
-- **Binomial Logistic Regression.ipynb**  
-  Binary classification using logistic regression, focusing on probability estimation, coefficient interpretation, and model evaluation.
-
-- **Decision Tree.ipynb**  
-  Decision tree classification with model tuning and performance evaluation.
-
-- **Random Forest Model.ipynb**  
-  Ensemble learning using random forests, including hyperparameter tuning and performance comparison.
-
-- **XGBoost Model.ipynb**  
-  Gradient boosting classification applied to airline passenger satisfaction, evaluated using precision, recall, F1 score, confusion matrices, and feature importance analysis.
-
-- **Naive Bayes model.ipynb**  
-  Probabilistic classification using Naive Bayes, demonstrating model assumptions and tradeoffs.
+This repository contains a collection of projects focused on statistical analysis and machine learning that apply core methods to real-world datasets. Each project emphasizes understanding data, building models, and interpreting results rather than deploying solutions.
 
 ---
 
-### Regression Analysis
+## Supervised Learning Projects
 
-- **Linear Regression.ipynb**  
-  Simple linear regression modeling and interpretation.
+### Decision Tree  
+Predicts airline customer satisfaction using historical flight experience survey data to understand factors influencing satisfaction.
 
-- **Multiple Linear Regression.ipynb**  
-  Multivariate regression with feature analysis and diagnostic evaluation.
+### Binomial Logistic Regression  
+Analyzes airline customer satisfaction survey data to model the likelihood that a passenger reports being satisfied.
 
-- **Evaluating Linear Regression.ipynb**  
-  Model assessment using residual analysis and performance metrics.
+### Random Forest Model  
+Uses survey responses from airline customers to predict satisfaction and compare performance against simpler classification models.
+
+### XGBoost Model  
+Applies gradient boosting to airline satisfaction data to evaluate predictive performance and feature importance.
+
+### Naive Bayes Model  
+Examines NBA rookie performance statistics to estimate whether a player will have a career lasting five or more years.
 
 ---
 
-### Unsupervised Learning
+## Regression Analysis
 
-- **K-means Clustering Model.ipynb**  
-  Customer segmentation using K-means clustering, including cluster interpretation and evaluation.
+### Linear Regression  
+Explores the relationship between radio promotion budget and sales outcomes.
+
+### Multiple Linear Regression Analysis  
+Analyzes a small business’s marketing promotion data to understand how multiple advertising channels relate to sales.
+
+### Evaluating Simple Linear Regression  
+Evaluates the relationship between TV advertising spending and sales using statistical significance and model diagnostics.
 
 ---
 
-### Statistical Testing & Analysis
+## Unsupervised Learning
 
-- **One-Way ANOVA and Post Hoc Comparison via Tukey.ipynb**  
-  Hypothesis testing to compare group means followed by post hoc analysis.
+### K-means Clustering Model  
+Analyzes biological and environmental data to identify patterns within penguin populations using clustering techniques.
 
-- **t-test.md**  
-  Overview and application of t-tests and statistical inference.
+---
+
+## Statistical Testing & Inference
+
+### One-Way ANOVA and Post Hoc Comparison via Tukey’s HSD  
+Examines whether sales differ significantly across categories of TV promotional budgets and influencer sizes.
+
+### t-test  
+Uses Environmental Protection Agency air quality data to evaluate differences in mean AQI across regions and states to support policy considerations.
 
 ---
 
 ## Datasets
 
-The repository includes multiple datasets used across projects:
+The repository includes several datasets used to support statistical analysis and machine learning projects:
 
 - **Invistico_Airline.csv**  
-  Airline passenger satisfaction data for classification modeling.
+  Airline customer survey data capturing passenger satisfaction and flight experience information.
 
 - **marketing_sales_data.csv**  
-  Sales and marketing dataset used for regression analysis.
+  Marketing and sales data used to analyze relationships between promotional spending and sales outcomes.
 
 - **marketing_and_sales_data_evaluate_lr.csv**  
-  Dataset focused on evaluating linear regression models.
+  Dataset used to evaluate and assess simple linear regression model performance.
 
 - **extracted_nba_players_data.csv**  
-  NBA player statistics used for exploratory and statistical analysis.
+  NBA rookie performance statistics used to analyze early-career metrics and long-term career outcomes.
 
 - **c4_epa_air_quality.csv**  
-  Environmental data used for statistical exploration.
+  Environmental air quality data from the EPA used for regional and policy-related statistical comparisons.
 
 ---
 
 ## Tools & Libraries
 
-- Python  
-- NumPy  
-- pandas  
-- scikit-learn  
-- XGBoost  
-- Matplotlib  
+- Python for data analysis, modeling, and statistical computation  
+- NumPy for numerical operations and array-based calculations  
+- pandas for data loading, cleaning, and transformation  
+- scikit-learn for machine learning models, evaluation, and validation  
+- XGBoost for gradient boosting classification  
+- Matplotlib for data visualization and model result interpretation
